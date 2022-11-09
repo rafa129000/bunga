@@ -1632,7 +1632,7 @@ reply(res)
 });
 break
 //=================================================//
-case 'kal': {
+case 'rapa': {
 if (isBan) throw sticBanLu(from)
  hey = fs.readFileSync('./baseikal/sound/tes.mp3')
  haikal.sendMessage(m.chat, {audio: hey, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
@@ -1650,7 +1650,7 @@ if (isBan) throw sticBanLu(from)
  haikal.sendMessage(m.chat, {audio: hoy, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
  }
  break
-case 'awkwk': {
+case 'kontol': {
 if (isBan) throw sticBanLu(from)
  huy = fs.readFileSync('./baseikal/sound/awkwk.mp3')
  haikal.sendMessage(m.chat, {audio: huy, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
@@ -1680,13 +1680,13 @@ if (isBan) throw sticBanLu(from)
  haikal.sendMessage(m.chat, {audio: mu, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
  }
  break
-case 'slebew': {
+case 'slentod': {
 if (isBan) throw sticBanLu(from)
  me = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
  haikal.sendMessage(m.chat, {audio: me, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
  }
  break
-case 'cantik': {
+case 'lawak': {
 if (isBan) throw sticBanLu(from)
  muku = fs.readFileSync('./baseikal/sound/loli.mp3')
  haikal.sendMessage(m.chat, {audio: muku, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
@@ -4383,16 +4383,16 @@ case 'soundbot': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╔══════[ SOUNDBOT MENU ]══════⊱ 
-╠➤kal
+╠➤rapa
 ╠➤ngakak
 ╠➤ketawa
-╠➤awkwk
+╠➤kontol
 ╠➤bang
 ╠➤nob
 ╠➤musik
 ╠➤mastah
-╠➤slebew
-╠➤cantik
+╠➤slentod
+╠➤lawak
 ╠➤kesel
 ╠➤ngeselin
 ╚════[rapa ]══════⊱`,
